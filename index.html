@@ -5,31 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fars Grej</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+
 <body>
-    <header>
-        <h1>Fars Grej</h1>
-        <nav>
-            <ul>
-                <li><a href="index.htm">Guide</a></li>
-                <li><a href="biografier.htm">Shop</a></li>
-                <img src="Images/370220474_1690688451422071_1171698750950191073_n (1).png" alt="">
-                <li><a href="stifteren.htm">Comunity</a></li>
-                <li><a href="kontakt.htm">Om os</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1>Shoppen</h1>
-    <main>
-        <section>
-            <h2>Nyheder</h2>
-            <!-- Insert news articles here -->
-        </section>
-        <section>
-            <h2>Events</h2>
-            <!-- Insert events here -->
-        </section>
-    </main>
+<<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Hjem</a>
+    <a href="#news">Nyt</a>
+    <a href="#contact">Kontakt</a>
+    <div class="dropdown">
+      <button class="dropbtn">Fag 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">UX</a>
+        <a href="#">Design</a>
+        <a href="#">Programering</a>
+      </div>
+    </div> 
+    <a href="#about">Om mig</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>  
+
+
+<div class="container">
+    <video autoplay muted loop id="myVideo">
+        <source src="REC.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    <div class="textvideo">
+        <h1 class="overskrift1"> Amalie Sofie Tobar Petersen</h1>
+        <p class="underoverskrift1"> Multimediedesigner</p>
+    </div>
+  </div> 
     <footer>
         <img src="Images/Kystfiskeren.jpg" alt="">
         <p>&copy; 2022 Fars Grej. Alle rettigheder reserveret.</p>
