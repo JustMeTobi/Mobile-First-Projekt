@@ -8,16 +8,25 @@
 </head>
 <body>
     <header>
-        <h1>Fars Grej</h1>
-        <nav>
-            <ul>
-                <li><a href="index.htm">Forside</a></li>
-                <li><a href="biografier.htm">Biografier</a></li>
-                <img src="Images/370220474_1690688451422071_1171698750950191073_n (1).png" alt="">
-                <li><a href="stifteren.htm">Stifteren</a></li>
-                <li><a href="kontakt.htm">Kontakt</a></li>
-            </ul>
-        </nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Forside</a>
+            <a href="#news">Guide</a>
+            <a href="#contact">Shop</a>
+            <a href="#about">Community</a>
+            <a href="#about">Om os</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+          
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>  
     </header>
     <div class="category">Fiskestænger</div>
 
