@@ -70,4 +70,51 @@ h1 {
             height: 350px;
             z-index: -1;
             left: 15%;
+<<<<<<< Updated upstream
         }
+=======
+        }
+/* -------------------------------------------------------------------Shoppen ------------------------------------------------------------------- */
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .like-btn {
+            cursor: pointer;
+            color: #ccc;
+        }
+
+        .liked {
+            color: #e44d26;
+        }
+
+      /*Guide*/
+        body{
+            background-color: beige;
+          }
+        .burgermenu{
+            display: box;
+            float: right;
+        }
+
+        /*billeder*/
+     
+       @media (min-width: 600px){
+        .body {
+          font-size: 18px;
+          .sø{
+            max-width: 100%;
+            height: auto;}
+         }
+    } 
+      @media (min-width: 900px) {
+        .body {
+          font-size: 20px;
+        }
+}
+
+
+>>>>>>> Stashed changes
