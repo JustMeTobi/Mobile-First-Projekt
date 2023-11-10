@@ -72,3 +72,19 @@ h1 {
             z-index: -1;
             left: 15%;
         }
+/* -------------------------------------------------------------------Shoppen ------------------------------------------------------------------- */
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .like-btn {
+            cursor: pointer;
+            color: #ccc;
+        }
+
+        .liked {
+            color: #e44d26;
+        }
