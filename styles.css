@@ -40,7 +40,7 @@ h1 {
 
         nav ul li a {
             color: white-type;
-            text: none;
+            text-decoration: none;
         }
 
         ul li a:hover {
@@ -72,6 +72,7 @@ h1 {
             z-index: -1;
             left: 15%;
         }
+<<<<<<< Updated upstream
 /* -------------------------------------------------------------------Shoppen ------------------------------------------------------------------- */
         .product {
             border: 1px solid #ccc;
@@ -88,8 +89,3 @@ h1 {
         .liked {
             color: #e44d26;
         }
-
-        .category {
-            margin-top: 20px;
-            margin-bottom: 10px;
-            font-size: 20px;}
