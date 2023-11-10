@@ -72,34 +72,8 @@ h1 {
             z-index: -1;
             left: 15%;
         }
-<<<<<<< Updated upstream
 
 /* -------------------------------------------------------------------Shoppen ------------------------------------------------------------------- */
-=======
-/*---------------------------------------------------------Forside-------------------------------------------------------------------*/
-
-.Kystfiskeren{
-    margin: auto;
-    background-color: #4CAF50;
-    width: 336px;
-    height: 200px;
-    border-radius: 20px; /* Add rounded ends */
-}
-.Micheal{
-    background-color: #4CAF50;
-    width: 125px;
-    height: 125px;
-    border-radius: 20px; /* Add rounded ends */
-}
-
-
-
-
-
-
-
-        /* -------------------------------------------------------------------Shoppen ------------------------------------------------------------------- */
->>>>>>> Stashed changes
         .product {
             border: 1px solid #ccc;
             padding: 10px;
@@ -116,7 +90,6 @@ h1 {
             color: #e44d26;
         }
 
-<<<<<<< Updated upstream
         * {
             box-sizing: border-box;
           }
@@ -145,8 +118,6 @@ h1 {
   .topnav .icon {
     display: none;
   }
-
-
   
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -200,6 +171,3 @@ h1 {
             margin: 0;
           }
           
-=======
-        
->>>>>>> Stashed changes
