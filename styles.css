@@ -88,3 +88,8 @@ h1 {
         .liked {
             color: #e44d26;
         }
+
+        .category {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 20px;}
