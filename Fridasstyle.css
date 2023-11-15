@@ -105,7 +105,14 @@ body {
     background-color: #e1dcd6;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Merriweather Sans', sans-serif;;
 }
+
+.h2 h3 h4{
+    font-family: 'Exo', sans-serif;;
+}
+
+
 
 /*----------------------------------------------------------------- Style page layout --------------------------------------------------------- */
 
@@ -130,7 +137,6 @@ body {
 /*main section*/
 .main {
     grid-area: main;
-    text-align: center;
 }
 
 .main h2 {
@@ -146,6 +152,10 @@ body {
 
 .main p {
     margin-bottom: 50px;
+    text-align: justify;
+}
+
+.main p ul{
     text-align: justify;
 }
 
