@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styleShopFull.css" />
     <link rel="stylesheet" href="Nikolinesstyle.css">
-    
+    <link rel="stylesheet" href="styles.css">
     <title>Fars Grej</title>
 </head>
 
@@ -19,10 +19,10 @@
 
     <header>
         <div class="topnav" id="myTopnav">
-            <a href="index.html" class="active">Forside</a>
+            <a href="index.html" >Forside</a>
             <a href="Frida.html" >Guide</a>
             <a href="Amalie.html">Shop</a>
-            <a href="Nikolines.html">Community</a>
+            <a href="Nikolines.html" class="active">Community</a>
             <a href="#">Om os</a>
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
@@ -31,7 +31,29 @@
 
 
 <main>
+    <section id="opretForm">
+        <div class="boxAround">
+            <h3><u>Opret opslag</u></h3>
+            <form class="opretForm">
+                <label for="name">Fulde navn:</label>
+                <input type="text" id="name" name="name" required>
     
+                <label for="comment">Kommentar:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+    
+                <label for="image">Indsæt billede:</label>
+                <input type="file" id="image" name="image" accept="image/*">
+    
+                <label for="location">Lokation:</label>
+                <input type="text" id="location" name="location">
+    
+                <input type="submit" value="Opret opslag" class="opretKnap">
+            </form>
+        </div>
+</section>
+    
+
+
         <div class="flexpil">
             <div>
                 <a href="#">
